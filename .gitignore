@@ -1,0 +1,5 @@
+venv/
+*.ipynb
+*.pth
+*.ipynb
+*.txt

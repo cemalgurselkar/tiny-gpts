@@ -8,7 +8,7 @@ from .utils import create_run_dir, save_loss_plot, save_training_log
 import os
 
 
-class Trainer:
+class GPTrain:
     def __init__(self, config):
         self.config = config
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
